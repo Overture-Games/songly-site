@@ -6,10 +6,14 @@
   <div class="img-container">
     <img src="{logo}" alt="logo" />
   </div>
-  <i class="fas fa-angle-down"></i>
+  <button on:click={() => {
+    document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
+  }}>
+    <i class="fas fa-angle-down"></i>
+  </button>
 </div>
 
-<style>
+<style lang="scss">
   .bg {
     background-image: url('./assets/background.png');
     background-size: cover;
@@ -28,6 +32,18 @@
 
   img {
     width: 100%;
+  }
+
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+
+    &:hover {
+      transform: translateY(8px);
+    }
   }
 
   i {

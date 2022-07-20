@@ -6,9 +6,11 @@
   import Title from "./components/Title.svelte";
   import LargeLink from "./components/LargeLink.svelte";
   import Footer from "./Footer.svelte";
+  import Anchor from "./components/Anchor.svelte";
 </script>
 
 <Header />
+<Anchor name="content" />
 <Section>
   <TagLine>
     Overture Games makes beginner musicians stress free when they practice.
