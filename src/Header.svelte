@@ -1,11 +1,15 @@
 <script>
   import logo from './assets/center_logo.png'
+  import LargeLink from "./components/LargeLink.svelte";
 </script>
 
 <div class="bg">
   <div class="img-container">
     <img src="{logo}" alt="logo" />
   </div>
+  <LargeLink to="https://discord.gg/8qn2m3uKan" faIcon="fab fa-discord" newTab>
+    Stay updated on our Discord server
+  </LargeLink>
   <button on:click={() => {
     document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
   }}>
@@ -16,9 +20,9 @@
 <style lang="scss">
   .bg {
     background-image: url('./assets/background.jpg');
-    background-size: cover;
-    background-position: 500px;
-    height: 640px;
+    background-size: 2500px;
+    background-position: top;
+    height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,6 +31,7 @@
 
     @media (min-width: $desktop) {
       background-position: center;
+      background-size: cover;
     }
   }
 

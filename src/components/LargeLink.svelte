@@ -24,20 +24,20 @@
   $link-color: #b4f28a;
   a {
     text-decoration: none;
-    color: $link-color;
+    color: #444280;
     display: block;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
-    border: 2px solid $link-color;
+    background: white;
     border-radius: 12px;
     padding: 12px 24px;
     transition: all 100ms ease-in-out;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     &:hover {
-      background-color: $link-color;
-      color: $background;
+      background-color: #e5edff;
+      color: #444280;
 
       .outer {
         gap: 32px;

@@ -28,9 +28,6 @@
     With Intervallic, you can play your instrument in front of a device with a microphone
      and watch as a character in the game reacts in real-time. 
   </Title>
-  <LargeLink to="https://discord.gg/8qn2m3uKan" faIcon="fab fa-discord" newTab>
-    Stay updated on our Discord server
-  </LargeLink>
 </Section>
 <Footer />
 
