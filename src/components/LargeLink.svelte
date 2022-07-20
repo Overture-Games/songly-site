@@ -33,6 +33,7 @@
     border-radius: 12px;
     padding: 12px 24px;
     transition: all 100ms ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     &:hover {
       background-color: $link-color;
