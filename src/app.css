@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Alegreya;
+  src: url('./assets/Alegreya-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Alegreya;
+  src: url('./assets/Alegreya-Bold.ttf');
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  background-color: #22223a;
+  font-family: Alegreya;
+}
