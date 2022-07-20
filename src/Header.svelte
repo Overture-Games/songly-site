@@ -15,7 +15,7 @@
 
 <style lang="scss">
   .bg {
-    background-image: url('./assets/background.png');
+    background-image: url('./assets/background.jpg');
     background-size: cover;
     background-position: center;
     height: 640px;
