@@ -17,13 +17,17 @@
   .bg {
     background-image: url('./assets/background.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 500px;
     height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    @media (min-width: $desktop) {
+      background-position: center;
+    }
   }
 
   .img-container {
@@ -50,4 +54,6 @@
     font-size: 48px;
     color: white;
   }
+
+  
 </style>
