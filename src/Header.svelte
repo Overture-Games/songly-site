@@ -22,7 +22,7 @@
     background-image: url('./assets/background.jpg');
     background-size: 2500px;
     background-position: top;
-    height: 740px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@
     gap: 20px;
 
     @media (min-width: $desktop) {
-      background-position: center;
+      background-position: top;
       background-size: cover;
     }
   }
