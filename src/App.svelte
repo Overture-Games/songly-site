@@ -1,12 +1,11 @@
 <script lang="ts">
-  import Header from "./Header.svelte";
+  import Anchor from "./components/Anchor.svelte";
   import Paragraph from "./components/Paragraph.svelte";
   import Section from "./components/Section.svelte";
   import TagLine from "./components/TagLine.svelte";
   import Title from "./components/Title.svelte";
-  import LargeLink from "./components/LargeLink.svelte";
   import Footer from "./Footer.svelte";
-  import Anchor from "./components/Anchor.svelte";
+  import Header from "./Header.svelte";
 </script>
 
 <Header />
