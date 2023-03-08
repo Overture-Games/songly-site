@@ -6,6 +6,7 @@
   import Title from "./components/Title.svelte";
   import Footer from "./Footer.svelte";
   import Header from "./Header.svelte";
+  import LargeLink from "./components/LargeLink.svelte";
 </script>
 
 <Header />
@@ -27,6 +28,14 @@
     With Intervallic, you can play your instrument in front of a device with a microphone
      and watch as a character in the game reacts in real-time. 
   </Title>
+</Section>
+<Section>
+  <LargeLink to="https://overturegames.itch.io/intervallic" faIcon="fab fa-itch-io" newTab>
+    Intervallic (Demo) on itch.io
+  </LargeLink>
+  <br>
+  <br>
+  <br>
 </Section>
 <Footer />
 

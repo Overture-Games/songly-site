@@ -5,6 +5,7 @@
 <style lang="scss">
   p {
     font-size: 24px;
+    text-align: center;
     color: #cbdbfc;
     max-width: 90%;
     display: block;
