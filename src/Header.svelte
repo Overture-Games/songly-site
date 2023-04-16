@@ -10,6 +10,12 @@
   <LargeLink to="https://discord.gg/8qn2m3uKan" faIcon="fab fa-discord" newTab>
     Stay updated on our Discord server
   </LargeLink>
+  <LargeLink to="https://store.steampowered.com/app/2270460" faIcon="fab fa-steam" newTab>
+    Intervallic (Demo) on Steam
+  </LargeLink>
+  <LargeLink to="https://overturegames.itch.io/intervallic" faIcon="fab fa-itch-io" newTab>
+    Intervallic (Demo) on itch.io
+  </LargeLink>
   <button on:click={() => {
     document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
   }}>

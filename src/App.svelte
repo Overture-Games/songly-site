@@ -30,9 +30,6 @@
   </Title>
 </Section>
 <Section>
-  <LargeLink to="https://overturegames.itch.io/intervallic" faIcon="fab fa-itch-io" newTab>
-    Intervallic (Demo) on itch.io
-  </LargeLink>
   <br>
   <br>
   <br>
