@@ -13,7 +13,7 @@
 <Anchor name="content" />
 <Section>
   <TagLine>
-    Overture Games leaves beginner musicians stress-free when practicing.
+    Overture Games turns practicing music into a game!
   </TagLine>
   <Paragraph>
     Over 50% of beginner music students quit in the first 1-2 years of practice. 
