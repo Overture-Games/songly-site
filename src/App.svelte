@@ -17,7 +17,7 @@
   </TagLine>
   <Paragraph>
     Over 50% of beginner music students quit in the first 1-2 years of practice. 
-    After interviewing over a hundred students, parents and teachers, we found that 
+    After interviewing hundreds of students, parents and teachers, we found that 
     the main reason for quitting was because practice is boring, lonely and frustrating. 
     Current solutions fail to make practicing fun for everyone, and that's where our first 
     game, Intervallic, comes in.
