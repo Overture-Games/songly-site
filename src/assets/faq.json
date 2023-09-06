@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What devices can I use to play Intervallic?",
+    "answer": "Intervallic currently supports computer keyboard and any midi device. Pitch detection is currently under development, but you can play with any instrument if you have access to pitch detection software that outputs in a midi format, such as Dubbler."
+  },
+  {
+    "question": "When will Intervallic come out?",
+    "answer":  "Intervallic will be released as an early access release for PC and MacOS on Steam and itch.io on September 29th, 2023."
+  },
+  {
+    "question": "I've enocuntered a bug. What should I do?",
+    "answer": "We apologize for any inconveniences with bugs! First, try going to the main menu and reopening the level you were playing. If that doesn't work, try restarting the game. This usually does the trick, but if the bug is still persistent, please contact us via our email or Discord server and let us know what happened. We'll try to get back to you as soon as possible and squash that bug!"
+  },
+  {
+    "question": "What languages will Intervallic be available in?",
+    "answer": "Intervallic currently is only available in English."
+  },
+  {
+    "question": "Will Intervallic be free to play?",
+    "answer": "Intervallic will have both a free tier and a paid tier. There will also be an option to purchase specific content in-game."
+  }
+]
