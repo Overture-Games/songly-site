@@ -8,7 +8,7 @@
   import JackImage from '../assets/jack-picture.webp';
   import LeoImage from '../assets/leo-picture.webp';
   import MercedesImage from '../assets/mercedes-picture.webp';
-  import PeterImage from '../assets/peter-picture.webp';
+  import PeterImage from '../assets/petr-picture.webp';
   import StevenImage from '../assets/steven-picture.webp'
 
   const images = {
@@ -17,7 +17,7 @@
     "Jack": JackImage,
     "Leo": LeoImage,
     "Mercedes": MercedesImage,
-    "Peter": PeterImage,
+    "Petr": PeterImage,
     "Steven": StevenImage,
   };
 </script>
