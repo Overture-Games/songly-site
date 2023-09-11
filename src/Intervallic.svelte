@@ -1,14 +1,12 @@
 <script lang="ts">
   import Anchor from './components/Anchor.svelte';
-  import intervallicPoster from './assets/intervallic.webp';
-  import intervallicTrailer from './assets/Trailer-2.mp4';
   import LargeLink from './components/LargeLink.svelte';
   import Paragraph from './components/Paragraph.svelte';
   import Section from './components/Section.svelte';
   import Separator from './components/Separator.svelte';
   import TagLine from './components/TagLine.svelte';
   import Title from './components/Title.svelte';
-  import Video from './components/Video.svelte';
+  import YouTube from 'svelte-youtube-embed';
 </script>
 
 <Anchor name="intervallic" />
@@ -25,10 +23,15 @@
     Audius!
   </Paragraph>
   <Section>
-    <Video
-      poster={intervallicPoster}
-      src={intervallicTrailer}
-    />
+    <YouTube 
+      id="npvPh99QvkY"
+      --title-color="white" 
+      --title-shadow-color="black" 
+      --title-font-family="Alegreya"
+      --overlay-bg-color="hsla(0, 0%, 0%, 0.4)"
+    >
+      <i class="fas fa-play"></i>
+    </YouTube>
   </Section>
   <Paragraph>
     In this single-player 2D side scroller, each note that you play moves the 
@@ -76,5 +79,11 @@
       width: 100%;
       padding: 15px 0 15px 0;
     }
+  }
+
+  i {
+    font-size: 80px;
+    color: white;
+    filter: drop-shadow(5px 5px 5px black);
   }
 </style>
