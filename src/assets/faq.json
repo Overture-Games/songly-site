@@ -5,7 +5,11 @@
   },
   {
     "question": "When will Intervallic come out?",
-    "answer":  "Intervallic will be released as an early access release for PC and MacOS on Steam and itch.io on September 29th, 2023."
+    "answer":  "Intervallic will be released in Early Access for PC and MacOS on Steam and itch.io on September 29th, 2023."
+  },
+  {
+    "question": "How do I set up my midi device to play Intervallic?",
+    "answer": "Launch Intervallic, then plug in the device to your computer as you normally would (most likely with a cable). In the game select \"Midi\" mode when choosing the level you want to play, and it should work! If it does not, for some reason, try unplugging and plugging the device back in while in-game. This is the process you should use for an external computer keyboard or microphone, as well."
   },
   {
     "question": "I've enocuntered a bug. What should I do?",
@@ -14,10 +18,6 @@
   {
     "question": "What languages will Intervallic be available in?",
     "answer": "Intervallic currently is only available in English."
-  },
-  {
-    "question": "Will Intervallic be free to play?",
-    "answer": "Intervallic will have both a free tier and a paid tier. There will also be an option to purchase specific content in-game."
   },
   {
     "question": "I want to get involved with Overture Games! How can I do that?",

@@ -16,13 +16,13 @@
   <Separator />
   <TagLine>Intervallic</TagLine>
   <Title>
-    With Intervallic, you can play your instrument in front of a device with a
-    microphone and watch as a character in the game reacts in real-time.
+    Get motivated and pick up that dusty instrument!
   </Title>
   <Paragraph>
-    Use a microphone, MIDI instrument or computer keyboard to control a flying 
-    space cat around the planet of Audius! Intervallic helps you learn to play 
-    music and works to make practicing your instrument more fun and engaging!
+    Intervallic is an audio-responsive video game that gives real-time feedback 
+    and makes even the most boring music practice fun! Use a microphone, MIDI instrument, 
+    or computer keyboard to control a flying robot space cat around the planet of 
+    Audius!
   </Paragraph>
   <Section>
     <Video
@@ -39,7 +39,7 @@
     level.
   </Paragraph>
   <Title>
-    Intervallic will be out on September 29th, 2023! Check out the demo below!
+    Intervallic will be out in Early Access on September 29th, 2023! Check out the demo below!
   </Title>
   <div class="outer">
     <div class="inner">

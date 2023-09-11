@@ -29,7 +29,7 @@
   <img class="separator" src={CardSeparator} alt="separator" />
   <div class="bio">
     <p>
-      {bio}
+      <span>{alt}</span> {bio}
     </p>
   </div>
 </div>
@@ -65,6 +65,10 @@
     text-align: justify;
     color: #cbdbfc;
     font-size: 24px;
+  }
+
+  span {
+    font-weight: 900;
   }
 
   .separator {

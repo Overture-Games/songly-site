@@ -14,7 +14,7 @@
   <LargeLink to="https://store.steampowered.com/app/2270460" faIcon="fab fa-steam" newTab>
     Intervallic out 9/29!
   </LargeLink>
-  <button on:click={handleButtonClick} on:click={() => {
+  <button aria-label="scroll down" on:click={handleButtonClick} on:click={() => {
     document.getElementById('overview').scrollIntoView({ behavior: 'smooth' });
   }}>
     <i class="fas fa-angle-down"></i>

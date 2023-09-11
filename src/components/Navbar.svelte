@@ -60,6 +60,10 @@
       text-shadow: 0.5px 0px 1px,
                   -0.5px 0px 1px;
       outline: none;
+      text-decoration: underline;
+      text-decoration-color: #cbdbfc;
+      text-underline-offset: 4px;
+      text-decoration-thickness: 2px;
     }
   }
 

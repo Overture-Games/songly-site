@@ -2,10 +2,11 @@
   export let to: string;
   export let faIcon: string | undefined = undefined;
   export let newTab = false;
+  export let ariaLabel: string;
 </script>
 
 <div class="container">
-  <a href={to} target={newTab ? "_blank" : null}>
+  <a href={to} target={newTab ? "_blank" : null} aria-label={ariaLabel}>
     <div>
       {#if faIcon}
         <i class={faIcon}></i>

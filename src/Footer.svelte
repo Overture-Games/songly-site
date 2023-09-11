@@ -9,32 +9,44 @@
     <SmallLink 
       to="https://discord.gg/8qn2m3uKan"
       faIcon="fab fa-discord"
-      newTab>
+      newTab
+      ariaLabel="Discord"
+    >
     </SmallLink>
     <SmallLink 
       to="https://store.steampowered.com/app/2270460/Intervallic/"
       faIcon="fab fa-steam"
-      newTab>
+      newTab
+      ariaLabel="Steam"
+    >
     </SmallLink>
     <SmallLink 
       to="https://itch.io/profile/overturegames"
       faIcon="fab fa-itch-io"
-      newTab>
+      newTab
+      ariaLabel="itch.io"
+    >
     </SmallLink>
     <SmallLink 
       to="https://www.instagram.com/overturegames/"
       faIcon="fab fa-instagram"
-      newTab>
+      newTab
+      ariaLabel="Instagram"
+    >
     </SmallLink>
     <SmallLink 
       to="https://www.linkedin.com/company/overture-games"
       faIcon="fab fa-linkedin"
-      newTab>
+      newTab
+      ariaLabel="LinkedIn"
+    >
     </SmallLink>
     <SmallLink 
       to="https://www.youtube.com/channel/UCKpXdbdDTjqymi79hnCnR6A"
       faIcon="fab fa-youtube"
-      newTab>
+      newTab
+      ariaLabel="YouTube"
+    >
     </SmallLink>
   </div>
   <p>
@@ -58,7 +70,7 @@
     color: #cbdbfc;
     text-align: center;
     font-size: 20px;
-    opacity: 50%;
+    opacity: 75%;
   }
 
   a {
