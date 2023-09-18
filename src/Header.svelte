@@ -23,7 +23,7 @@
 
 <style lang="scss">
   .bg {
-    background-image: url('./assets/background.jpg');
+    background-image: url('./assets/background.webp');
     background-size: 2500px;
     background-position: top;
     height: 750px;
