@@ -23,7 +23,7 @@
 
 <style lang="scss">
   .bg {
-    background-image: url('./assets/background.webp');
+    background-image: url('./assets/background.png');
     background-size: 2500px;
     background-position: top;
     height: 750px;
@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-bottom: 2px solid white;
 
     @media (min-width: $desktop) {
       background-position: top;
