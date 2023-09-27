@@ -12,7 +12,7 @@
     <img src="{logo}" alt="logo" />
   </div>
   <LargeLink to="https://store.steampowered.com/app/2270460" faIcon="fab fa-steam" newTab>
-    Intervallic out 9/29!
+    Intervallic out soon!
   </LargeLink>
   <button aria-label="scroll down" on:click={handleButtonClick} on:click={() => {
     document.getElementById('overview').scrollIntoView({ behavior: 'smooth' });

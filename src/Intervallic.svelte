@@ -42,7 +42,7 @@
     level.
   </Paragraph>
   <Title>
-    Intervallic will be out in Early Access on September 29th, 2023! Check out the demo below!
+    Intervallic will be out in Early Access soon! Check out the demo below!
   </Title>
   <div class="outer">
     <div class="inner">
