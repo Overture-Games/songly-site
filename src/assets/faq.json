@@ -4,10 +4,6 @@
     "answer": "Intervallic currently supports computer keyboard and any midi device. Pitch detection is currently under development, but you can play with any instrument if you have access to pitch detection software that outputs in a midi format, such as Dubbler."
   },
   {
-    "question": "When will Intervallic come out?",
-    "answer":  "Intervallic will be released in Early Access for PC and MacOS on Steam and itch.io soon in the next few weeks."
-  },
-  {
     "question": "How do I set up my midi device to play Intervallic?",
     "answer": "Launch Intervallic, then plug in the device to your computer as you normally would (most likely with a cable). In the game select \"Midi\" mode when choosing the level you want to play, and it should work! If it does not, for some reason, try unplugging and plugging the device back in while in-game. This is the process you should use for an external computer keyboard or microphone, as well."
   },

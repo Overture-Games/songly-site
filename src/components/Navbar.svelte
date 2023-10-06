@@ -17,6 +17,12 @@
   </button>
   <img src={sixteenthNote} alt="sixteenth note" />
   <button on:click={handleButtonClick} on:click={() => {
+    document.getElementById('overview').scrollIntoView({ behavior: 'smooth' });
+  }}>
+    Overview
+  </button>
+  <img src={sixteenthNote} alt="sixteenth note" />
+  <button on:click={handleButtonClick} on:click={() => {
     document.getElementById('team').scrollIntoView({ behavior: 'smooth' });
   }}>
     Team

@@ -21,7 +21,7 @@
     {/each}
   </div>
   <div class="discord">
-    <LargeLink to="https://discord.gg/8qn2m3uKan" faIcon="fab fa-discord" newTab>
+    <LargeLink to="https://discord.gg/8qn2m3uKan" faIcon="fab fa-discord" newTab className="">
       Stay updated on our Discord server
     </LargeLink>
   </div>

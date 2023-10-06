@@ -2,10 +2,11 @@
   export let to: string;
   export let faIcon: string | undefined = undefined;
   export let newTab = false;
+  export let className: string;
 </script>
 
 <div>
-  <a href={to} target={newTab ? "_blank" : null}>
+  <a href={to} target={newTab ? "_blank" : null} class={className}>
     <div class="outer">
       <div>
         {#if faIcon}
@@ -34,6 +35,10 @@
     padding: 12px 24px;
     transition: all 100ms ease-in-out;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    &.large {
+      font-size: 32px;
+    }
 
     &:hover {
       background-color: #e5edff;

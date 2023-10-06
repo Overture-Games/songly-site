@@ -3,12 +3,12 @@
   import Paragraph from './components/Paragraph.svelte';
   import Section from './components/Section.svelte';
   import TagLine from './components/TagLine.svelte';
-  import Navbar from './components/Navbar.svelte';
+  import Separator from './components/Separator.svelte';
 </script>
 
 <Anchor name="overview" />
 <Section>
-  <Navbar />
+  <Separator />
   <TagLine>Overture Games turns practicing music into a game!</TagLine>
   <Paragraph>
     Over 50% of beginner music students quit in the first 1-2 years of practice.

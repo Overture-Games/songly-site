@@ -3,7 +3,6 @@
   import LargeLink from './components/LargeLink.svelte';
   import Paragraph from './components/Paragraph.svelte';
   import Section from './components/Section.svelte';
-  import Separator from './components/Separator.svelte';
   import TagLine from './components/TagLine.svelte';
   import Title from './components/Title.svelte';
   import YouTube from 'svelte-youtube-embed';
@@ -11,7 +10,6 @@
 
 <Anchor name="intervallic" />
 <Section>
-  <Separator />
   <TagLine>Intervallic</TagLine>
   <Title>
     Get motivated and pick up that dusty instrument!
@@ -42,19 +40,12 @@
     level.
   </Paragraph>
   <Title>
-    Intervallic will be out in Early Access soon! Check out the demo below!
+    Support our mission by downloading Intervallic below!
   </Title>
   <div class="outer">
-    <div class="inner">
-      <LargeLink to="https://store.steampowered.com/app/2270460" faIcon="fab fa-steam" newTab>
-        Intervallic (Demo) on Steam
-      </LargeLink>
-    </div>
-    <div class="inner">
-      <LargeLink to="https://overturegames.itch.io/intervallic" faIcon="fab fa-itch-io" newTab>
-        Intervallic (Demo) on itch.io
-      </LargeLink>
-    </div>
+    <LargeLink to="https://store.steampowered.com/app/2270460" faIcon="fab fa-steam" newTab className="">
+      Intervallic on Steam
+    </LargeLink>
   </div>
 </Section>
 
@@ -62,7 +53,7 @@
   .outer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 20px;
 
