@@ -28,13 +28,6 @@
     >
     </SmallLink>
     <SmallLink 
-      to="https://www.instagram.com/overturegames/"
-      faIcon="fab fa-instagram"
-      newTab
-      ariaLabel="Instagram"
-    >
-    </SmallLink>
-    <SmallLink 
       to="https://www.linkedin.com/company/overture-games"
       faIcon="fab fa-linkedin"
       newTab
