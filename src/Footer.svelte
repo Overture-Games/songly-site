@@ -7,7 +7,7 @@
   <Separator />
   <div>
     <SmallLink 
-      to="https://discord.gg/8qn2m3uKan"
+      to="https://discord.gg/eeeWxyJMtM"
       faIcon="fab fa-discord"
       newTab
       ariaLabel="Discord"
@@ -25,6 +25,13 @@
       faIcon="fab fa-itch-io"
       newTab
       ariaLabel="itch.io"
+    >
+    </SmallLink>
+    <SmallLink 
+      to="https://www.instagram.com/playintervallic/"
+      faIcon="fab fa-instagram"
+      newTab
+      ariaLabel="Instagram"
     >
     </SmallLink>
     <SmallLink 
